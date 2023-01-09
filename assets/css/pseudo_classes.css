@@ -1,0 +1,49 @@
+.titulo1{
+    transition: all 1s ease-in-out;
+}
+
+.titulo1:hover{
+    background-color: blue;
+}
+
+a:link{
+    color:blue ; 
+}
+
+a:visited{
+    color:darkcyan;
+}   
+
+a:hover{
+    background-color: darkseagreen;
+    color:blue; 
+    text-decoration: none;
+}
+
+a:active{
+    background-color: black;    
+    color:white; 
+}
+
+input:focus{
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.checkbox:checked + p{
+    color:cornflowerblue;
+}
+
+.checkbox:not(:checked) + p {
+    color:brown ;
+}
+.pai .lista li:first-child{
+    background-color: blue;
+}
+
+.teste .child li:nth-child(even){
+    background-color: aqua;
+}
+
+.teste .child li:nth-child(odd){
+    background-color: brown;
+}
