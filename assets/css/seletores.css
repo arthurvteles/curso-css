@@ -1,0 +1,37 @@
+*{
+    margin: 0px ; 
+    padding: 0px;
+}
+
+body div section p{
+    background-color: rgba(47, 0, 255, 0.178);
+}
+
+.Lorem{
+    color: chocolate;
+    font-style: italic;
+}
+
+.Lorem h1{
+    color:darkgreen;
+}
+
+.father{
+    background-color: rgba(202, 27, 27, 0.247);
+}
+
+.son{
+    background-color: white;
+}
+
+.plus h1+p{
+    background-color: blue;
+}
+
+.tio h1~p{
+    background-color: chartreuse;
+}
+
+[id]{
+    color: darkolivegreen;
+}
