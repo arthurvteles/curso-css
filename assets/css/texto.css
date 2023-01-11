@@ -1,0 +1,11 @@
+p::selection{
+    background-color: aqua;
+    text-shadow: none;
+    text-decoration: underline;
+}
+
+p{
+    text-shadow: -1px -1px 5px blue;
+    text-align: center ;
+}
+

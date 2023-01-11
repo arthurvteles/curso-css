@@ -1,0 +1,28 @@
+.son1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 10px;
+    position: absolute; 
+    left:100px;
+    z-index: 1;
+}
+
+.son2{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 255, 0.219);
+    top:110px ; 
+    left:190px;
+    position:relative; 
+    z-index: 2;
+}
+
+p{
+    position:absolute;
+    background-color: coral;
+    top: 0px;
+    left: 0px;
+    border:0px;
+}
+
