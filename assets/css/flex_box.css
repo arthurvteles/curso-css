@@ -1,0 +1,22 @@
+.flex-container{
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+
+}
+
+.flex-item{
+    background-color: navy;
+    color: white; 
+    margin: 20px;
+    width: 100%;
+    flex-grow: 1;
+    flex-basis: 0;
+    flex-shrink: 1; 
+}
+
+.flex-item:nth-child(2){
+    background-color: cadetblue;
+}

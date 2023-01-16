@@ -1,0 +1,58 @@
+*{
+    margin:0px;
+    padding:0px;
+    font: sans-serif;
+}
+
+
+
+.my_contacts ul{
+    position: fixed;
+    display: flex;
+    float: left;
+    list-style-type: none;
+    width:100%; 
+    background-color: black;
+}
+
+.my_contacts ul li{
+    padding: 10px; 
+}
+
+
+.my_introduction{
+    box-sizing: border-box;
+    width: 50%;
+    position:absolute;
+    margin:0 auto;
+    color: white; 
+    max-width: 1200px;
+    background-color: navy;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 20%;
+    overflow: auto;
+    box-shadow: 0 0 15px 0.5px black;
+    padding: 2%;
+    border-radius: 50px 50px 50px 50px;
+}
+
+
+.my-knowledge{
+    position:fixed;
+    color: white; 
+    background-color:navy;
+    position  : absolute; 
+    width     : 40%;  
+    text-align: center;
+    left: 30%;
+    top: 50%;
+    overflow: auto;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0 0 15px 0.5px black;
+}
+
+
+.my-knowledge ul{
+    list-style-type: none;
+}
